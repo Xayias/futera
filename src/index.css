@@ -62,3 +62,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@layer base {
+  .primaryButton {
+    @apply bg-[#1bb8d7] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black;
+  }
+  .secondaryButton {
+    @apply bg-[#000] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#1bb8d7];
+  }
+}
+
