@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar'
+import Footer from "../components/Footer"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 
@@ -10,6 +11,7 @@ const CompanyDetails = () => {
             <h1>About the Company</h1>
             <p>Futera Technologies is leading innovation in networking, machine learning, and data security.</p>
             {/* Add your company-specific content here */}
+            <Footer />
         </div>
     )
 }
