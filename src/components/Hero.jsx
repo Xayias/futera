@@ -14,7 +14,7 @@ const Hero = () => {
                     <ReactTyped className="md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2" strings={["Networking", "Machine Learning", "Data Security"]} typeSpeed={120} backSpeed={140} loop />
                 </div>
                 <p className="md:text-2xl text-xl font-bold text-gray-500">Secure, scalable infrastructure for data centers and AI-driven insights.</p>
-                <button className="primaryButton">Explore Solutions</button>
+                <button className="bg-[#1bb8d7] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black;">Explore Solutions</button>
             </div>
         </div>
     )
