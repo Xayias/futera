@@ -14,7 +14,7 @@ const Footer = () => {
             <div>
                 <img className="h-24 mr-4 ml-[-1rem] p-5" src={Logo} alt="futera white logo long"/>
                 <p className="py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, tenetur quasi? Officiis aperiam praesentium inventore, qui repudiandae repellat, iste debitis ratione a laudantium exercitationem! Aliquam, tenetur? Omnis error neque dolores?</p>
-                <div className="flex justify-between md:w-[75%] my-6">
+                <div className="flex justify-between md:w-[75%] my-6 mx-auto">
                     <FaFacebookSquare size={30} />
                     <FaInstagram size={30}/>
                     <FaTwitterSquare size={30}/>
