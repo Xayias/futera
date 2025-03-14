@@ -15,7 +15,7 @@ const Navbar = () => {
             <img className="h-24 mr-4 ml-[-1rem] p-5" src={Logo} alt="futera white logo long" />
             <ul className="hidden md:flex">
                 <li className="p-4"><Link to="/">Home</Link></li>
-                <li className="p-4"><Link to="/">Company</Link></li>
+                <li className="p-4"><Link to="/company">Company</Link></li>
                 <li className="p-4"><Link to="/">Resources</Link></li>
                 <li className="p-4"><Link to="/">About</Link></li>
                 <li className="p-4"><Link to="/">Contact</Link></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <img className="h-24 mr-4 ml-[0rem] p-5" src={Logo} alt="futera white logo long"/>
                 <ul className="uppercase p-4">
                     <li className="p-4 border-b border-gray-600"><Link to="/">Home</Link></li>
-                    <li className="p-4 border-b border-gray-600"><Link to="/">Company</Link></li>
+                    <li className="p-4 border-b border-gray-600"><Link to="/company">Company</Link></li>
                     <li className="p-4 border-b border-gray-600"><Link to="/">Resources</Link></li>
                     <li className="p-4 border-b border-gray-600"><Link to="/">About</Link></li>
                     <li className="p-4"><Link to="/">Contact</Link></li>
