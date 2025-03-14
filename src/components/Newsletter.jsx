@@ -3,9 +3,9 @@ import React from 'react'
 const Newsletter = () => {
     return (
         <div class="w-full py-16 text-white px-4">
-            <div className="max-w-[1240px] mx-auto grid lg-grid-cols-3 align-middle">
+            <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 align-middle">
                 <div className="lg:col-span-2 lg:my-12">
-                    <h2 className="md:text-4xl smLtext-3xl text-2xl font-bold py-2">Want tips & tricks to optimize your flow?</h2>
+                    <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Want tips & tricks to optimize your flow?</h2>
                     <p>Sign up to our newsletter and stay up to date.</p>
                 </div>
                 <div className="my-4">
