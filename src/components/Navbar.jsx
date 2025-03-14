@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white relative z-50">
+        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 !text-white relative z-50">
             <img className="h-24 mr-4 ml-[-1rem] p-5" src={Logo} alt="futera white logo long" />
             <ul className="hidden md:flex">
                 <li className="p-4"><Link to="/">Home</Link></li>
