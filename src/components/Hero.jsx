@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="relative text-white">
             <video className="hidden md:block absolute top-0 left-0 w-full h-full object-cover z-0 opacity-10" src={VideoBG} autoPlay loop muted />
-            <img src={GifBG} alt="Background Animation" className="block md:hidden absolute top-0 left-0 w-full h-full object-cover"/>
+            <img src={GifBG} alt="Background Animation" className="block md:hidden absolute top-0 left-0 w-full h-full object-cover opacity-10"/>
             <div className="relative mx-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center px-4">
                 <p className="text-[#1bb8d7] font-bold p-2">INNOVATING WITH ADVANCED TECHNOLOGIES</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-1">Future Proofing Tomorrow's Connectivity.</h1>
