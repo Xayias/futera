@@ -7,10 +7,6 @@ import Company from './Company';
 import Resources from './Resources';
 import About from './About';
 import Contact from './Contact';
-import Company from './Company';
-import Resources from './Resources';
-import About from './About';
-import Contact from './Contact';
 
 const ResourcesDetails = () => {
     return (
