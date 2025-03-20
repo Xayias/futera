@@ -15,10 +15,10 @@ const Navbar = () => {
             <img className="h-24 mr-4 ml-[-1rem] p-5" src={Logo} alt="futera white logo long" />
             <ul className="hidden md:flex">
                 <li className="p-4"><Link to="/">Home</Link></li>
-                <li className="p-4"><Link to="/company">Company</Link></li>
-                <li className="p-4"><Link to="/">Resources</Link></li>
-                <li className="p-4"><Link to="/">About</Link></li>
-                <li className="p-4"><Link to="/">Contact</Link></li>
+                <li className="p-4"><Link to="/company">Products</Link></li>
+                <li className="p-4"><Link to="/resources">Resources</Link></li>
+                <li className="p-4"><Link to="/about">About</Link></li>
+                <li className="p-4"><Link to="/contact">Contact</Link></li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
                 {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
@@ -27,10 +27,10 @@ const Navbar = () => {
                 <img className="h-24 mr-4 ml-[0rem] p-5" src={Logo} alt="futera white logo long"/>
                 <ul className="uppercase p-4">
                     <li className="p-4 border-b border-gray-600"><Link to="/">Home</Link></li>
-                    <li className="p-4 border-b border-gray-600"><Link to="/company">Company</Link></li>
-                    <li className="p-4 border-b border-gray-600"><Link to="/">Resources</Link></li>
-                    <li className="p-4 border-b border-gray-600"><Link to="/">About</Link></li>
-                    <li className="p-4"><Link to="/">Contact</Link></li>
+                    <li className="p-4 border-b border-gray-600"><Link to="/company">Products</Link></li>
+                    <li className="p-4 border-b border-gray-600"><Link to="/resources">Resources</Link></li>
+                    <li className="p-4 border-b border-gray-600"><Link to="/about">About</Link></li>
+                    <li className="p-4"><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         </div>

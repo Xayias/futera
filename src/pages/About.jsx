@@ -8,11 +8,11 @@ import Resources from './Resources';
 import About from './About';
 import Contact from './Contact';
 
-const CompanyDetails = () => {
+const AboutDetails = () => {
     return (
         <div>
             <Navbar />
-            <h1>Our Products</h1>
+            <h1>About the Company</h1>
             <p>Futera Technologies is leading innovation in networking, machine learning, and data security.</p>
             {/* Add your company-specific content here */}
             <Footer />
@@ -20,4 +20,4 @@ const CompanyDetails = () => {
     )
 }
 
-export default CompanyDetails;
+export default AboutDetails;
