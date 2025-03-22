@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import PageHeader from "../components/PageHeader"
 import headerImage from "../assets/resourcesheaderbg.webp"
 import Highlight from "../components/Highlight"
-import highlightImage from "../assets/___"
+import highlightImage from "../assets/react.svg"
 
 const ResourcesDetails = () => {
     return (
