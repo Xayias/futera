@@ -1,20 +1,19 @@
 import React from 'react';
 import Navbar from '../components/Navbar'
 import Footer from "../components/Footer"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import Company from './Company';
-import Resources from './Resources';
-import About from './About';
-import Contact from './Contact';
+import PageHeader from "../components/PageHeader"
+import headerImage from "../assets/aboutheaderbg.webp"
 
 const AboutDetails = () => {
     return (
         <div>
             <Navbar />
-            <h1>About the Company</h1>
-            <p>Futera Technologies is leading innovation in networking, machine learning, and data security.</p>
             {/* Add your company-specific content here */}
+            <PageHeader 
+                title="About Futera"
+                subtitle="Driven by innovation, Futera delivers next-gen networking, AI, and data security solutions for businesses shaping tomorrow."
+                backgroundImage={headerImage}
+            />
             <Footer />
         </div>
     )
