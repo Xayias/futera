@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar'
 import Footer from "../components/Footer"
+import PageHeader from "../components/PageHeader"
+import headerImage from "../assets/productsheaderbg.webp"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Company from './Company';
@@ -12,9 +14,12 @@ const CompanyDetails = () => {
     return (
         <div>
             <Navbar />
-            <h1>Our Products</h1>
-            <p>Futera Technologies is leading innovation in networking, machine learning, and data security.</p>
             {/* Add your company-specific content here */}
+            <PageHeader 
+                title="Our Products"
+                subtitle="Futera Technologies is leading innovation in networking, machine learning, and data security."
+                headerBG={headerImage}
+            />
             <Footer />
         </div>
     )
