@@ -18,7 +18,7 @@ const CompanyDetails = () => {
             <PageHeader 
                 title="Our Products"
                 subtitle="Futera Technologies is leading innovation in networking, machine learning, and data security."
-                headerBG={headerImage}
+                backgroundImage={headerImage}
             />
             <Footer />
         </div>
