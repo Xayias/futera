@@ -9,7 +9,7 @@ const Highlight = ({ highlightTitle, highlightSubtitle, highlightImage, highligh
                     <p className="text-[#1bb8d7] font-bold">{highlightSubtitle}</p>
                     <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-black">{highlightTitle}</h2>
                     <p className="text-black">{highlightParagraph}</p>
-                    <button className="bg-[#000] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#1bb8d7]">{highlightCTA}</button>
+                    <button className="bg-[#000] w-[300px] rounded-md font-medium my-6 mx-auto py-3 text-[#1bb8d7]">{highlightCTA}</button>
                 </div>
             </div>
         </div>
