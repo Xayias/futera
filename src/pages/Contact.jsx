@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import PageHeader from "../components/PageHeader"
 import headerImage from "../assets/contactheaderbg.webp"
 import Highlight from "../components/Highlight"
-import highlightImage from "../assets/react.svg"
+import highlightImage from "../assets/contacthighlight.webp"
 
 const ContactDetails = () => {
     return (
