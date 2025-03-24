@@ -9,7 +9,7 @@ const ProductComparisonGrid = ({ products, features }) => {
         <div className="max-w-6xl mx-auto px-4 py-12">
             <h2 className="text-3xl font-bold text-center mb-10 text-[#1bb8d7]">Compare Our Products</h2>
             {/* Desktop Table */}
-            <div className="hidden md:block overflow-x-auto">
+            <div className="block border-4 border-red-500">
                 <table className="min-w-full bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden">
                     <thead className="bg-[#1bb8d7] text-white">
                         <tr>
@@ -32,7 +32,11 @@ const ProductComparisonGrid = ({ products, features }) => {
                                 </td>
                                 {feature.values.map((val, colIndex) => {
                                     <td key={colIndex} className="text-center p-4">
-                                        {val ? '✔️' : '❌'}
+                                        {val ? (
+                                            <CheckCircleIcon className="w-6 h-6 text-green-500 mx-auto" />
+                                        ) : (
+                                            <XCircleIcon class="w-6 h-6 text-red-400 mx-auto" />
+                                        )}
                                     </td>
                                 })}
                             </tr>
