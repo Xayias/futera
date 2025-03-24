@@ -1,5 +1,6 @@
 import React from 'react'
-import { CheckCircleIcon, XCircleIcon } from '@heroicons/react/solid'
+import { CheckCircleIcon } from '@heroicons/react/24/solid';
+import { XCircleIcon } from '@heroicons/react/24/solid';
 
 const ProductComparisonGrid = ({ products, features }) => {
     const highlightIndex = Math.floor(products.length / 2); // Highlight middle product
