@@ -25,7 +25,6 @@ const CompanyDetails = () => {
                 highlightParagraph="Keep your customers connected via fast internet speeds using our state of the art server farm services. Never worry about the status of your online services connectivity."
                 highlightCTA="View Networking Solutions"
             />
-            <Cards />
             <ProductComparisonGrid 
                 products={[
                     { name: "Futera CORE" },
@@ -40,6 +39,7 @@ const CompanyDetails = () => {
                     { label: "24/7 Support", tooltip: "Round-the-clock expert assistance.", values: [true, true, true] },
                 ]}
             />
+            <Cards />
             <Footer />
         </div>
     )
