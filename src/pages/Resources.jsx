@@ -13,15 +13,15 @@ const ResourcesDetails = () => {
             {/* Add your company-specific content here */}
             <PageHeader 
                 title="Resources & Insights"
-                subtitle="Stay ahead with Futera's latest thought leadership, technical papers, product guides, and industry reports."
+                subtitle="Stay ahead with Futera's latest thought leadership, technical documentation, product guides, and industry events."
                 backgroundImage={headerImage}
             />
             <Highlight 
-                highlightTitle=""
-                highlightSubtitle=""
+                highlightTitle="Aim for Innovation and Perfection"
+                highlightSubtitle="GET ALL THE HELP YOU NEED"
                 highlightImage={highlightImage}
-                highlightParagraph=""
-                highlightCTA=""
+                highlightParagraph="Seek out the information you need to expand your horizons and stay ahead of the curve to better serve your users and grow your business in the right ways. We offer rich resources such as documentation, guides and hold industry workshops nation wide."
+                highlightCTA="Find The Best Recources For You"
             />
             <Footer />
         </div>

@@ -17,11 +17,11 @@ const ContactDetails = () => {
                 backgroundImage={headerImage}
             />
             <Highlight 
-                highlightTitle=""
-                highlightSubtitle=""
+                highlightTitle="We Are Always A Call or Email Away"
+                highlightSubtitle="YOU HAVE QUESTIONS, WE HAVE ANSWERS"
                 highlightImage={highlightImage}
-                highlightParagraph=""
-                highlightCTA=""
+                highlightParagraph="We are here to help you with any inquiries, questions or general feedback. Our 24/7 support staff is standing by to provide the quality assistance you deserve."
+                highlightCTA="Contact Us Today"
             />
             <Footer />
         </div>
