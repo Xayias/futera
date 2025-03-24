@@ -64,8 +64,8 @@ const ProductComparisonGrid = ({ products, features }) => {
             {/* Mobile Cards */}
             <div className="md:hidden space-y-8">
                 {products.map((product, colIndex) => (
-                    <div key={colIndex} className={`border bg-white rounded-lg shadow-md p-6 ${colIndex === highlightIndex ? 'border-[#1bb8d7] bg-gray-300' : ''}`}>
-                        <h3 className="text-xl font-bold text-center mb-4 text-[#1bb8d70]">{product.name}</h3>
+                    <div key={colIndex} className={`border rounded-lg shadow-md p-6 ${colIndex === highlightIndex ? 'border-[#1bb8d7] bg-gray-300' : 'bg-white'}`}>
+                        <h3 className="text-xl font-bold text-center mb-4 text-[#1bb8d7]">{product.name}</h3>
                         <ul className="space-y-3">
                             {features.map((feature, rowIndex) => (
                                 <li key={rowIndex} className="flex justify-between items-center border-b pb-2">
