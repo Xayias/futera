@@ -18,7 +18,6 @@ const CompanyDetails = () => {
                 subtitle="At Futera, we design secure, scalable technology tailored for the modern world — from intelligent networking to AI-driven analytics."
                 backgroundImage={headerImage}
             />
-            <TestHeroIcon />
             <Highlight 
                 highlightTitle="Low Throttle Networking"
                 highlightSubtitle="PROVIDE HIGH SPEED CONNECTION"
