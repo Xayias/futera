@@ -25,7 +25,7 @@ const ProductComparisonGrid = ({ products, features }) => {
                                 <td className="p-4 font-medium text-gray-700">
                                     <div className="relative group">
                                         {feature.label}
-                                        <span className="absolute hidden group-hover:block text-xs text-white bg-gray-800 px-2 py-1 rounded-md -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap z-10">
+                                        <span className="absolute hidden group-hover:block text-xs text-white bg-gray-800 px-2 py-1 rounded-md -top-7 left-1/2 transform -translate-x-1/2 whitespace-nowrap z-10">
                                             {feature.tooltip}
                                         </span>
                                     </div>
