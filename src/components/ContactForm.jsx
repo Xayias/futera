@@ -15,7 +15,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-gray-300 py-16">
+        <div className="bg-gray-300 py-16 px-4 md:px-0">
             <form onSubmit={handleSubmit} className="max-w-[700px] mx-auto p-8 bg-white shadow-xl rounded-lg border-2 border-[#1bb8d7]">
                 <h2 className="text-3xl font-bold text-[#1bb8d7] mb-6 text-center">Send Us a Message</h2>
 
