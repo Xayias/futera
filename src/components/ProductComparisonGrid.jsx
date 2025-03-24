@@ -30,15 +30,21 @@ const ProductComparisonGrid = ({ products, features }) => {
                                         </span>
                                     </div>
                                 </td>
-                                {feature.values?.map((val, colIndex) => {
+                                {!feature.values ? (
+                                  <td colSpan={products.length} className="text-center text-red-500">
+                                    Missing values for: {feature.label}
+                                  </td>
+                                ) : (
+                                  feature.values.map((val, colIndex) => (
                                     <td key={colIndex} className="text-center p-4">
-                                        {val ? (
-                                            <CheckCircleIcon className="w-6 h-6 text-green-500 mx-auto" />
-                                        ) : (
-                                            <XCircleIcon class="w-6 h-6 text-red-400 mx-auto" />
-                                        )}
+                                      {val ? (
+                                        <CheckCircleIcon className="w-6 h-6 text-green-500 mx-auto" />
+                                      ) : (
+                                        <XCircleIcon className="w-6 h-6 text-red-400 mx-auto" />
+                                      )}
                                     </td>
-                                })}
+                                  ))
+                                )}
                             </tr>
                         ))}
                         <tr className="border-t">
