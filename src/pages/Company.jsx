@@ -32,7 +32,7 @@ const CompanyDetails = () => {
                     { name: "Futera SHIELD" },
                 ]}
                 features={[
-                    { label: "Real-Time Monitoring", tooltip: "Monitor netowrk activity in real-time.", values: [true, true, false] },
+                    { label: "Real-Time Monitoring", tooltip: "Monitor network activity in real-time.", values: [true, true, false] },
                     { label: "Cloud Compatible", tooltip: "Works with AWS, Azure, and Google Cloud.", values: [true, true, true] },
                     { label: "AI Integration", tooltip: "Machine learning enhancements and prediction models.", values: [false, true, false] },
                     { label: "End-to-End Encryption", tooltip: "Full data encryption from device to destination.", values: [false, false, false] },
