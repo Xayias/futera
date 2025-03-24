@@ -5,6 +5,7 @@ import PageHeader from "../components/PageHeader"
 import headerImage from "../assets/productsheaderbg.webp"
 import Highlight from "../components/Highlight"
 import highlightImage from "../assets/serverhighlight.webp"
+import ProductComparisonGrid from '../components/ProductComparisonGrid';
 
 const CompanyDetails = () => {
     return (
@@ -22,6 +23,20 @@ const CompanyDetails = () => {
                 highlightImage={highlightImage}
                 highlightParagraph="Keep your customers connected via fast internet speeds using our state of the art server farm services. Never worry about the status of your online services connectivity."
                 highlightCTA="View Networking Solutions"
+            />
+            <ProductComparisonGrid 
+                products={[
+                    { name: "Futera CORE" },
+                    { name: "Futera AI" },
+                    { name: "Futera SHIELD" },
+                ]}
+                features={[
+                    { label: "Real-Time Monitoring", tooltip: "Monitor netowrk activity in real-time.", values: [true, true, false] },
+                    { label: "Cloud Compatible", tooltip: "Works with AWS, Azure, and Google Cloud.", values: [true, true, true] },
+                    { label: "AI Integration", tooltip: "Machine learning enhancements and prediction models.", values: [false, true, false] },
+                    { label: "End-to-End Encryption", tooltip: "Full data encryption from device to destination.", values: [false, false, false] },
+                    { label: "24/7 Support", tooltip: "Round-the-clock expert assistance.", values: [true, true, true] },
+                ]}
             />
             <Footer />
         </div>
