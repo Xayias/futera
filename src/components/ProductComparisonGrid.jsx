@@ -36,7 +36,7 @@ const ProductComparisonGrid = ({ products, features }) => {
                                   </td>
                                 ) : (
                                   feature.values.map((val, colIndex) => (
-                                    <td key={colIndex} className="text-center p-4">
+                                    <td key={colIndex} className={`text-center p-4 ${colIndex === highlightIndex ? 'bg-gray-300' : ''}`}>
                                       {val ? (
                                         <CheckCircleIcon className="w-6 h-6 text-green-500 mx-auto" />
                                       ) : (
