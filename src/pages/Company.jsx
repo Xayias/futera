@@ -6,6 +6,7 @@ import headerImage from "../assets/productsheaderbg.webp"
 import Highlight from "../components/Highlight"
 import highlightImage from "../assets/serverhighlight.webp"
 import ProductComparisonGrid from '../components/ProductComparisonGrid';
+import TestHeroIcon from '../components/TestHeroIcon';
 
 const CompanyDetails = () => {
     return (
@@ -17,6 +18,7 @@ const CompanyDetails = () => {
                 subtitle="At Futera, we design secure, scalable technology tailored for the modern world — from intelligent networking to AI-driven analytics."
                 backgroundImage={headerImage}
             />
+            <TestHeroIcon />
             <Highlight 
                 highlightTitle="Low Throttle Networking"
                 highlightSubtitle="PROVIDE HIGH SPEED CONNECTION"
