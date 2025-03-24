@@ -50,7 +50,7 @@ const ProductComparisonGrid = ({ products, features }) => {
                         <tr className="border-t">
                             <td></td>
                             {products.map((_, i) => (
-                                <td key={i} className="text-center py-6">
+                                <td key={i} className={`text-center py-6 ${i === highlightIndex ? 'bg-gray-300' : ''}`}>
                                     <button className="bg-[#1bb8d7] hover:bg-[#139cb7] text-black font-medium px-4 py-2 rounded">
                                         Contact Sales
                                     </button>
