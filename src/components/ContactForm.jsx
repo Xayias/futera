@@ -28,7 +28,7 @@ const ContactForm = () => {
                             value={form.name}
                             onChange={handleChange}
                             required
-                            className="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
+                            className="text-black w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
                         />
                     </div>
                     <div>
@@ -39,7 +39,7 @@ const ContactForm = () => {
                             value={form.email}
                             onChange={handleChange}
                             required
-                            className="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
+                            className="text-black w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
                         />
                     </div>
                 </div>
@@ -52,7 +52,7 @@ const ContactForm = () => {
                         value={form.subject}
                         onChange={handleChange}
                         required
-                        className="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
+                        className="text-black w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
                     />
                 </div>
 
@@ -64,7 +64,7 @@ const ContactForm = () => {
                         onChange={handleChange}
                         required
                         rows="6"
-                        className="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
+                        className="text-black w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1bb8d7]"
                     ></textarea>
                 </div>
 
