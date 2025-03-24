@@ -6,7 +6,7 @@ import headerImage from "../assets/productsheaderbg.webp"
 import Highlight from "../components/Highlight"
 import highlightImage from "../assets/serverhighlight.webp"
 import ProductComparisonGrid from '../components/ProductComparisonGrid';
-import TestHeroIcon from '../components/TestHeroIcon';
+import Cards from '../components/Cards';
 
 const CompanyDetails = () => {
     return (
@@ -25,6 +25,7 @@ const CompanyDetails = () => {
                 highlightParagraph="Keep your customers connected via fast internet speeds using our state of the art server farm services. Never worry about the status of your online services connectivity."
                 highlightCTA="View Networking Solutions"
             />
+            <Cards />
             <ProductComparisonGrid 
                 products={[
                     { name: "Futera CORE" },
