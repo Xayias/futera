@@ -5,6 +5,7 @@ import PageHeader from "../components/PageHeader"
 import headerImage from "../assets/contactheaderbg.webp"
 import Highlight from "../components/Highlight"
 import highlightImage from "../assets/contacthighlight.webp"
+import ContactForm from '../components/ContactForm';
 
 const ContactDetails = () => {
     return (
@@ -23,6 +24,7 @@ const ContactDetails = () => {
                 highlightParagraph="We are here to help you with any inquiries, questions or general feedback. Our 24/7 support staff is standing by to provide the quality assistance you deserve."
                 highlightCTA="Contact Us Today"
             />
+            <ContactForm />
             <Footer />
         </div>
     )
