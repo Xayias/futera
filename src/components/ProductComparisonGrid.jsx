@@ -30,8 +30,7 @@ const ProductComparisonGrid = ({ products, features }) => {
                                         </span>
                                     </div>
                                 </td>
-                                console.log("feature", feature.label, feature.values);
-                                {feature.values.map((val, colIndex) => {
+                                {feature.values?.map((val, colIndex) => {
                                     <td key={colIndex} className="text-center p-4">
                                         {val ? (
                                             <CheckCircleIcon className="w-6 h-6 text-green-500 mx-auto" />
